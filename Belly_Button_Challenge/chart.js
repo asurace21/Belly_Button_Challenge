@@ -95,7 +95,7 @@ function buildCharts(sample) {
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-     title: "Navel Bacteria",
+     title: "Top 10 Bacteria Cultures Found",
      margin: {
       t: 50,
       l: 150,
@@ -117,7 +117,7 @@ function buildCharts(sample) {
       marker: {
         size: sampleValue,
         color: otuId,
-        colorscale: "viridis",
+        colorscale: "grayscale",
       },
       type: "bubble"
     }
@@ -151,7 +151,7 @@ function buildCharts(sample) {
           { range: [8,10], color: "green"},
         ],
       },
-      title: {text: "Wash Frequency"}
+      title: {text: "Belly Button Washing Frequency"}
     }
     ];
     
